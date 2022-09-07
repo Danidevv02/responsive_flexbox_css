@@ -1,0 +1,50 @@
+body{
+    height: 100vh;
+    width: 100%;
+    background-position: left;
+    background-image: url(./assets/img/background.png);
+}
+
+.contenedor{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100vh;
+    min-width: 50%;
+    display: flex;
+    flex-direction: row;
+    min-width: 50%;
+}
+
+.contenedor__subtitulo, 
+.contenedor__parrafo {
+    display: none;
+}
+
+.contenedor__boton{
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    font-size: 12px;
+}
+
+.form{
+    background:none;
+    min-width: 90px;
+    margin: 5rem 0;
+}
+
+.form__parrafo{
+    display: none;
+}
+
+.form__contenedoriconos{
+    position: absolute;
+    bottom: 100px;
+    right: 0rem;
+    left: 2rem;
+}
+
+.form__iconos{
+    padding: 1.2rem;
+    font-size: 1.2rem;
+}
